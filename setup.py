@@ -46,4 +46,5 @@ setup(
     include_package_data=True,
     install_requires=open('requirements.txt').read().split('\n'),
     classifiers=CLASSIFIERS,
+    test_suite='tests.settings.run',
 )
