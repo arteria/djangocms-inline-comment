@@ -18,6 +18,10 @@ env:
 
 install:
   - pip install -r requirements-test.txt
+  - pip install coveralls
 
 script:
   - tox -e $TOX_ENV
+
+after_success:
+    coveralls
