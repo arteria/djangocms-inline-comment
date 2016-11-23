@@ -2,6 +2,8 @@
 djangocms-inline-comment
 ========================
 
+|build| |coverage|
+
 **django CMS Inline Comment** is a plugin for `django CMS <http://django-cms.org>`_ that allows you to add comments to the structure board, visible to editors only. You can nest other plugins inside an inline comment, which renders them invisible on a published page.
 
 Supports Django >= 1.8 and django CMS >= 3.3. https://github.com/divio/djangocms-text-ckeditor is a requirement.
@@ -29,3 +31,10 @@ You can run tests by executing::
     source env/bin/activate
     pip install -r requirements-test.txt
     python setup.py test
+
+
+.. |build| image:: https://travis-ci.org/divio/djangocms-audio.svg?branch=master
+    :target: https://travis-ci.org/divio/djangocms-video
+.. |coverage| image:: https://coveralls.io/repos/github/arteria/djangocms-inline-comment/badge.svg?branch=masterr
+    :target: https://coveralls.io/github/arteria/djangocms-inline-comment?branch=master
+
