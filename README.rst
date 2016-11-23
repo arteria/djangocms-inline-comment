@@ -35,6 +35,6 @@ You can run tests by executing::
 
 .. |build| image:: https://travis-ci.org/divio/djangocms-audio.svg?branch=master
     :target: https://travis-ci.org/divio/djangocms-video
-.. |coverage| image:: https://coveralls.io/repos/github/arteria/djangocms-inline-comment/badge.svg?branch=masterr
+.. |coverage| image:: https://coveralls.io/repos/github/arteria/djangocms-inline-comment/badge.svg?branch=master
     :target: https://coveralls.io/github/arteria/djangocms-inline-comment?branch=master
 
