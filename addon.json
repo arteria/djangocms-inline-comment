@@ -1,0 +1,6 @@
+{
+    "package-name": "djangocms-inline-comment",
+    "installed-apps": [
+        "djangocms_inline_comment"
+    ]
+}

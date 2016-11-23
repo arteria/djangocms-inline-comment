@@ -1,0 +1,6 @@
+include LICENSE.txt
+include AUTHORS.txt
+include README.rst
+include requirements.txt
+recursive-include djangocms_inline_comment/templates *
+global-exclude *.orig *.pyc *.log *.swp
