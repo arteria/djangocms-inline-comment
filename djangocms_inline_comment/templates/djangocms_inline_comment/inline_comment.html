@@ -1,12 +1,15 @@
 {% load sekizai_tags cms_tags %}{% if request.toolbar.edit_mode %}
 {# Code is only rendered in edit mode #}
 
-{# CMS needs child plugins to be rendered for them to be editable, but their HTML can be commented out #}
-<!-- <div class="plugin parent">
+{% comment %} CMS needs render_plugin to be called, but the plugins should not be
+anywhere in the page. So we use a sekizai block which is never rendered {% endcomment %}
+{% addtoblock "null" %}
+<div class="plugin parent">
     {% for plugin in instance.child_plugin_instances %}
         {% render_plugin plugin %}
     {% endfor %}
-</div> -->
+</div>
+{% endaddtoblock "null" %}
 
 {% addtoblock "css" %}
 {% include 'djangocms_inline_comment/inline_comment_style.html' %}
