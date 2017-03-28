@@ -53,6 +53,7 @@ class PluginTestCase(BaseTestCase):
         response = self.client.get(self.page.get_absolute_url())
         self.assertContains(response, '<p>Public text</p>')
         self.assertNotContains(response, '<p>This is a comment</p>')
+        self.assertNotContains(response, 'opacity: 0.7')
 
     def test_edit_mode(self):
         """
@@ -62,6 +63,7 @@ class PluginTestCase(BaseTestCase):
             response = self.client.get(self.page.get_absolute_url(), data={'edit': True})
         self.assertContains(response, '<p>Public text</p>')
         self.assertContains(response, '<p>This is a comment</p>')
+        self.assertContains(response, 'opacity: 0.7')
 
     def test_commenting_out(self):
         """
