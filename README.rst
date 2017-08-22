@@ -38,3 +38,5 @@ You can run tests by executing::
 .. |coverage| image:: https://coveralls.io/repos/github/arteria/djangocms-inline-comment/badge.svg?branch=master
     :target: https://coveralls.io/github/arteria/djangocms-inline-comment?branch=master
 
+
+djangocms-inline-comment is free software. If you find it useful and would like to give back, please consider to make a donation using Bitcoin https://blockchain.info/payment_request?address=1AJkbQdcNkrHzxi91mB1kkPxh4t4BJ4hu4 or PayPal https://www.paypal.me/arteriagmbh. Thank you! 
